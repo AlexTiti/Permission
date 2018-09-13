@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                     })
         })
         button4.setOnClickListener(View.OnClickListener {
-            EventBus.getDefault().postSticky(UserEvent(1, "GGGGGGGG", 30))
+            EventBus.getDefault().postSticky(UserEvent(1, "HHHHH", 30))
             startActivity(Intent(this, SecondActivity::class.java))
         })
     }
